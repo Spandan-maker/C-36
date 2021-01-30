@@ -15,7 +15,7 @@ class player{
         })
     }
 
-    update(name){
+    Update(name){
         var playerIndex = "player" + playerCount
         
         database.ref(playerIndex).set({
