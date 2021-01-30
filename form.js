@@ -24,7 +24,7 @@ class form{
 
             playerCount = playerCount + 1;
 
-            player.update(name);
+            player.Update(name);
             player.updateCount(playerCount)
 
             greet.html("Hello " + name);
